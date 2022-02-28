@@ -1,0 +1,268 @@
+header {
+  height: 30px;
+  background-color: #f5f5f5;
+  line-height: 30px;
+}
+header .banxin {
+  font-size: 12px;
+}
+header .banxin .left {
+  float: left;
+}
+header .banxin .right {
+  float: right;
+}
+header .banxin .right ul li {
+  float: left;
+  padding: 0 20px;
+}
+.search {
+  height: 100px;
+  margin-bottom: 20px;
+}
+.search .banxin .logo {
+  float: left;
+  width: 180px;
+}
+.search .banxin .logo img {
+  width: 100%;
+}
+.search .banxin .surance {
+  float: left;
+}
+.search .banxin .surance li {
+  float: left;
+  padding: 0 10px;
+}
+.search .banxin .surance li a {
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.search .banxin .surance li a i {
+  float: left;
+  width: 24px;
+  height: 24px;
+  padding-right: 5px;
+}
+.search .banxin .surance li a i img {
+  width: 100%;
+  height: 100%;
+}
+.search .banxin .search-bar {
+  padding-top: 35px;
+  align-items: center;
+  width: 450px;
+  height: 100px;
+  float: right;
+  margin-right: 35px;
+  position: relative;
+}
+.search .banxin .search-bar i {
+  position: relative;
+}
+.search .banxin .search-bar i input {
+  border: none;
+  border: 2px solid #fa2a83;
+  outline: none;
+  height: 28px;
+  width: 450px;
+  padding-left: 5px;
+}
+.search .banxin .search-bar i img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.search .banxin .search-bar .more {
+  padding-top: 4px;
+}
+.search .banxin .search-bar .more li {
+  float: left;
+  padding-right: 25px;
+  font-size: 13px;
+}
+.search .banxin .search-bar .more li a {
+  color: #999;
+}
+.search .banxin .shoppingbag {
+  float: right;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.search .banxin .shoppingbag img {
+  cursor: pointer;
+}
+nav .banxin .fenlei {
+  float: left;
+  width: 155px;
+  height: 43px;
+  background-color: #fa2a83;
+  text-align: center;
+}
+nav .banxin .fenlei a {
+  color: aliceblue;
+  line-height: 43px;
+}
+nav .banxin .nav-bar {
+  height: 43px;
+}
+nav .banxin .nav-bar li {
+  float: left;
+  line-height: 43px;
+  padding: 0 15px;
+}
+nav .banxin .nav-bar li a .arrow {
+  margin-top: 20px;
+}
+nav .banxin .nav-bar li:first-child {
+  padding-left: 40px;
+}
+.banner {
+  height: 650px;
+  margin-bottom: 20px;
+}
+.banner .out {
+  position: relative;
+  height: 100%;
+}
+.banner .out img {
+  width: 100%;
+  height: 100%;
+}
+.banner .out .inner {
+  position: absolute;
+  top: 70px;
+  left: 380px;
+}
+.brand {
+  width: 1180px;
+  margin: 0 auto;
+}
+.brand img {
+  width: 100%;
+}
+.items .banxin ul {
+  display: flex;
+  justify-content: space-between;
+}
+.bikan {
+  margin: 30px 0 30px;
+}
+.stuff .banxin {
+  display: flex;
+  justify-content: space-between;
+}
+.stuff .banxin .left {
+  width: 570px;
+  position: relative;
+}
+.stuff .banxin .left img {
+  width: 100%;
+}
+.stuff .banxin .left .shangpin {
+  position: absolute;
+  padding-top: 110px;
+  top: -30px;
+  left: 10px;
+}
+.stuff .banxin .left .shangpin img {
+  width: 170px;
+}
+.stuff .banxin .right {
+  width: 570px;
+  position: relative;
+}
+.stuff .banxin .right img {
+  width: 100%;
+}
+.stuff .banxin .right .shangpin {
+  position: absolute;
+  padding-top: 110px;
+  top: -30px;
+  left: 10px;
+}
+.stuff .banxin .right .shangpin img {
+  width: 170px;
+}
+.f2 .banxin {
+  position: relative;
+}
+.f2 .banxin img {
+  width: 100%;
+}
+.f2 .banxin .shangpin {
+  position: absolute;
+  top: 100px;
+  left: 15px;
+}
+.f2 .banxin .shangpin img {
+  margin-right: 20px;
+  width: 170px;
+  height: 170px;
+}
+.f3 .banxin ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.f3 .banxin ul li {
+  width: 570px;
+  margin-top: 80px;
+}
+.f3 .banxin ul li img {
+  width: 100%;
+}
+footer {
+  margin-top: 50px;
+}
+footer .sprite {
+  display: flex;
+  justify-content: center;
+}
+footer dl {
+  margin-top: 50px;
+  height: 200px;
+  border-right: 1px solid #999;
+  float: left;
+  padding: 0 45px;
+}
+footer dl:last-child {
+  padding-left: 20px;
+  border-right: 0;
+}
+footer dl dt {
+  font-weight: 700;
+}
+footer dl dd {
+  margin: 5px 0;
+}
+footer .aboutus {
+  margin-top: 40px;
+  background-color: #fa2a83;
+  height: 40px;
+  line-height: 40px;
+}
+footer .aboutus ul {
+  display: flex;
+  justify-content: center;
+}
+footer .aboutus ul li {
+  float: left;
+  margin: 0 10px;
+}
+footer .aboutus ul li a {
+  font-size: 14px;
+  color: aliceblue;
+}
+.right-bar {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+/*# sourceMappingURL=./index.css.map */
